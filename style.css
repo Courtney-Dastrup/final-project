@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: lightgray;
+    margin: 0;
+}
+
+#OGpost {
+    background-color: white;
+    width: 90vw;
+    position: fixed;
+}
+
+#postContainer {
+    margin: 2vw;
+}
+
+#commentSection {
+    margin-top: 125px;
+    margin-bottom: 55px;
+}
+
+.commentContainer {
+    /* background-color: lightslategray; */
+    width: 84vw;
+    border: 2vw solid whitesmoke;
+    border-top: 1vw solid whitesmoke;
+    border-bottom: 1vw solid whitesmoke;
+    position: absolute;
+    left: 5vw;
+    padding: 1vw;
+}
+
+.editAction {
+    position: relative;
+    display: flex;
+    left: 90px;
+}
+
+.profileIcon {
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.username {
+    display: inline;
+}
+
+.words {
+    display: inline;
+}
+
+.buttons {
+    position: absolute;
+    left: 78vw;
+}
+
+.commentContainer:first-child {
+    border-top: 2vw solid whitesmoke;
+}
+
+.commentContainer:last-child {
+    border-bottom: 2vw solid whitesmoke;
+}
+
+#commentBar {
+    background-color: white;
+    width: 90vw;
+    position: fixed;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#displayName {
+    width: 6vw;
+}
+
+#comment {
+    width: 70vw;
+}
+
+#submit {
+    width: 6vw;
+}
+
+#formContainer {
+    width: 86vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
