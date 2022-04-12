@@ -14,21 +14,25 @@
     </div>
 
     <div id='commentSection'>
-        <!-- <div class="commentContainer" class="disappear">
+        <!-- This is where the comments come in. -->
+        <!-- <div class="commentContainer">
             <div class="comment">
                 <div class="buttons">
-                    <input type="submit" id="edit" value="Edit">
-                    <input type="submit" id="delete" value="Delete">
+                    <input type="submit" class="edit" value="Edit">
+                    <input type="submit" class="delete" value="Delete">
                 </div>
                 <img src="user-icon.png" alt="Profile Icon" class="profileIcon" width="75" height="75">
-                <div class="username"><span>not steve</span></div>
-                <div class="words"><h2>Eh. Maybe.</h2></div>
-                <div class="editAction">
-                    <input type="text" class="comment" class="uncover" placeholder="Comment">
+                <div class="username"><span>${$('#displayName').val()}</span></div>
+                <div class="words">
+                    <h2>${$('#comment').val()}</h2>
+                </div>
+                <div class="noDisplay", id="editAction">
+                    <input type="text" id="commentEdit" placeholder="Comment">
                     <input type="submit" class="submit">
                 </div>
             </div>
         </div> -->
+        <!-- until here -->
     </div>
 
     <div id="commentBar">
